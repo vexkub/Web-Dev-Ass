@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The Waggy Hostel</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript" src="js/gallery.js"></script>
+  <script type="text/javascript" src="js/mobile.js"></script>
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+      <img class="logo" src="./img/logo.png" alt="logo">
+    </a>
+
+    <nav>
+      <ul class="nav_links">
+        <li><a href="./gallery.html">Gallery</a></li>
+        <li><a href="./exercise.html">Exercise</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="contact.html"> Contact Us</a>
+    <p onClick="openNav()" class="menu cta">Menu</p>
+  </header>
+
+  <div id="mobile_menu" class="overlay">
+    <a class="close" onClick="closeNav()">&times;</a>
+    <div class="overlay_content">
+      <a href="gallery.html">Gallery</a>
+      <a href="exercise.html">Exercises</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </div>
+  <div id="container">
+    <div class="column active">
+      <div class="content">
+        <h1>1</h1>
+        <div class="box">
+          <h2>Group Playtime</h2>
+          <p>Calling social butterflies. Ideal for canines that love to play and interact with doggies in a safe and fun setting. Our most popular exercise option is customized according to each dog’s personality, size, and energy levels for the best
+            fun-loving experience.</p>
+        </div>
+      </div>
+      <div class="bg bg1"></div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <h1>2</h1>
+        <div class="box">
+          <h2>Leash Walk</h2>
+          <p>Enjoy a relaxing stroll with a member of our team. Your pet sets the rhythm of the outing and we keep them company. Perfect for older dogs, pups in training, and dogs recently recovering from surgery.</p>
+        </div>
+      </div>
+      <div class="bg bg2"></div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <h1>3</h1>
+        <div class="box">
+          <h2>Individual Quiet Time</h2>
+          <p>Ideal for people dogs, shy personalities, and lap dogs. Your canine and a team member spend one on one time doing an activity they enjoy such as exploring the outdoors, rolling in the grass or cuddles on our lap. Individual Quiet Time
+            offers fun and attention of at a slower pace and without any dog interactions.</p>
+        </div>
+      </div>
+      <div class="bg bg3"></div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <h1>4</h1>
+        <div class="box">
+          <h2>Splash Time</h2>
+          <p>Water-loving dogs will enjoy the pool! Splash time is a Summer favourite featuring a fresh supply of water, toys, and friends. Canines may either choose to lounge in the pool or shake things up by running around. Sessions are tailored
+            according to each dog’s personality, size, and age.</p>
+        </div>
+      </div>
+      <div class="bg bg4"></div>
+
+    </div>
+</body>
+
+</html>
